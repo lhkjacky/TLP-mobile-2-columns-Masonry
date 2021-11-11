@@ -3,7 +3,7 @@
       tbody {
         display: grid !important;
         grid-template-columns:repeat(auto-fill, minmax(150px,1fr));
-        grid-auto-rows: auto;
+        grid-auto-rows: 10px;
       }    
     
     .tiles-grid-item {
