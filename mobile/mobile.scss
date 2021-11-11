@@ -1,0 +1,49 @@
+.mobile-view .tiles-style {
+    
+      tbody {
+        display: grid !important;
+        grid-template-columns:repeat(auto-fill, minmax(150px,1fr));
+        grid-auto-rows: auto;
+      }    
+    
+    .tiles-grid-item {
+        
+        .topic-title {
+            font-size: 0.8em;
+        }
+        
+        .topic-users {
+            padding: 0 0 0 0;
+            
+            .avatar{
+                width:15px !important;
+                height:15px !important;
+            }
+        }
+        
+        .topic-category {
+            font-size: 0.8em;    
+        }
+        
+        .thumbnail {
+            
+        }    
+        
+        .topic-details {
+            font-size: 0.7em;
+        }
+        
+        .topic-tags {
+            font-size: 0.7em;
+        }
+        
+        div.sub, span.sub  {
+            font-size: 10px;
+        }
+    
+        .topic-actions .list-button {
+            font-size: 0.5em;
+        }
+    }
+      
+}
